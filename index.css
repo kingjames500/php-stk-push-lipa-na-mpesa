@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of viewport height */
+    background-color: darkgrey;
+}
+
+form {
+    text-align: center;
+    background-color: #ffff;
+    height: 30vh;
+}
+form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  
+    text-decoration: wavy;
+    text-decoration: wavy;
+}
